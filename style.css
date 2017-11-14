@@ -4,6 +4,7 @@
   height: 50%;
   border: 1px solid black;
   margin-left: 200px;
+  border-radius: 20px;
 }
 
 /* Redéfinit les logos taille*/
@@ -16,6 +17,7 @@
 .photo img{
   width: 300px;
   height: auto;
+  border-radius: 30px;
 }
 
 /* Bannière */
@@ -23,49 +25,63 @@
   width: auto;
   height: 50px;
   background-color: silver;
+  border-radius: 20px 20px 0px 0px;
 }
 
 /* S'occupe du titre en haut a gauche de la "bannière" */
 
 .titre{
   float: left;
+  height:50px;
 }
 /* Le body de ma VCard */
 .contenu{
   background-color: yellow;
+  height: 500px;
+}
+
+p{
+  text-align: justify;
 }
 
 .sect-gauche{
-  width: 500px;
+  width: 50%;
   float: left;
-  height: auto;
+  height: 50%;
   border: 1px solid red;
 }
 /* S'occupe de garder le bloc à droite grace au margin-left 50% */
 .sect-droite {
   width: 500px;
-  height: auto;
+  height: 50%;
   margin-left: 500px;
   border: 1px solid green;
+  padding-top: 20px;
 }
 
 .test{
   padding-bottom : 500px;
 }
 
-<td>Address</td>
-<td>Phone</td>
-<td>Email</td>
-<td>Website</td>
+table{
+  margin-top: 10%;
+}
 
 table td{
  border: 1px solid black;
+ text-align: center;
+ padding: 5px;
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 
+.photo table td{
+  margin-left: 10px
+}
 
 .titre_info{
 /*  border: 1px solid blue;
   margin-right: 80%; */
+  height: 80%;
 }
 
 .texte{
@@ -75,9 +91,20 @@ table td{
 }
 
 .name{
+
 }
 /* S'occupe du footer*/
-.fiche_footer{
-  height: 200px;
+footer{
   background-color: silver;
+  height: 100px;
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  padding-top: 5px;
+}
+
+.footer_p{
+margin-left: 20px;
+margin-right: 10px;
+font-size: 16px;
 }
