@@ -1,9 +1,83 @@
+/* Définit la taille de la page %pour responsive */
+.page{
+  width: 1000px;
+  height: 50%;
+  border: 1px solid black;
+  margin-left: 200px;
+}
+
+/* Redéfinit les logos taille*/
 .logos img{
   width: 50px;
   height: 50px;
+  float:right;
 }
 
 .photo img{
   width: 300px;
   height: auto;
+}
+
+/* Bannière */
+.header{
+  width: auto;
+  height: 50px;
+  background-color: silver;
+}
+
+/* S'occupe du titre en haut a gauche de la "bannière" */
+
+.titre{
+  float: left;
+}
+/* Le body de ma VCard */
+.contenu{
+  background-color: yellow;
+}
+
+.sect-gauche{
+  width: 500px;
+  float: left;
+  height: auto;
+  border: 1px solid red;
+}
+/* S'occupe de garder le bloc à droite grace au margin-left 50% */
+.sect-droite {
+  width: 500px;
+  height: auto;
+  margin-left: 500px;
+  border: 1px solid green;
+}
+
+.test{
+  padding-bottom : 500px;
+}
+
+<td>Address</td>
+<td>Phone</td>
+<td>Email</td>
+<td>Website</td>
+
+table td{
+ border: 1px solid black;
+}
+
+
+.titre_info{
+/*  border: 1px solid blue;
+  margin-right: 80%; */
+}
+
+.texte{
+  float: right;
+  border: 1px solid cyan;
+/*  margin-right; 30%; */
+}
+
+.name{
+}
+/* S'occupe du footer*/
+.fiche_footer{
+  height: 200px;
+  background-color: silver;
 }
